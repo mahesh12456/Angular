@@ -1,0 +1,30 @@
+<!-- <h2> {{ title }} </h2> -->
+<!-- <hr />
+<h2>name : {{ employee.name }}</h2>
+<h2>salary : {{ employee.salary }}</h2>
+<h2>address : {{ employee.Chennai }}</h2> -->
+<!-- <app-employees></app-employees>
+<style-app></style-app>
+<style-ap></style-ap>
+<root-app></root-app> -->
+<!-- <app-angular-form></app-angular-form> -->
+<div class="navbar navbar-extend-md fixed-top fixed-header">
+    <div class="container">
+        <nav>
+            <a [routerLink]="'/'">Home</a> |
+            <a [routerLink]="'/add-employee'">Add Employee</a>
+
+        </nav>
+    </div>
+</div>
+<div class="container pt-5">
+    <!-- <h2>{{ title }}</h2> -->
+    <!-- <app-employees></app-employees> -->
+    <!-- <app-add-employees></app-add-employees> -->
+    <!-- <hr />
+    <app-add-employees [countfromParent]="count" (countfromChild)="getfromChild($event)"></app-add-employees> -->
+    <router-outlet></router-outlet>
+</div>
+<hr />
+<!-- <div class="container">Count from Child: {{ count }}</div> -->
+
